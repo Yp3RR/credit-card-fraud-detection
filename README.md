@@ -115,7 +115,7 @@ Default classifiers predict fraud if probability ≥ 0.5. By tuning the classifi
 |---|---|---|---|
 | Baseline | Logistic Regression, no class weight | ~61% | High |
 | + Class Weight | `class_weight='balanced'`, threshold=0.5 | Improved | Moderate |
-| + Threshold Tuning | Best model + optimal threshold | **~89%** | **≥85%** |
+| + Threshold Tuning | Best model + optimal threshold | **~73%** | **≥85%** |
 
 **Key insight:** Class weight reshapes what the model learns during training. Threshold tuning adjusts where on the precision-recall curve we operate at inference time. These two techniques are complementary.
 
