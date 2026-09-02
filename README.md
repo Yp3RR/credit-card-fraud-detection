@@ -17,7 +17,9 @@ Fraud transactions account for only **0.17%** of all transactions (492 out of 28
 ```
 creditcard-fraud-detection/
 ├── notebooks/
-│   └── credit_card_fraud_detection.ipynb   # Main notebook
+│   ├── credit_card_fraud_detection.ipynb   # Main notebook
+│   └── creditcard_fraud.py # Main python file
+│
 ├── images/
 │   ├── class_distribution.png
 │   ├── amount_distribution.png
@@ -30,6 +32,7 @@ creditcard-fraud-detection/
 │   ├── recall_precision_improvement.png
 │   └── final_pr_curve.png
 ├── .gitignore
+├── .gitattributes
 └── README.md
 ```
 
